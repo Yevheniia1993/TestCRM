@@ -1,38 +1,93 @@
-.App {
+body{
+  padding: 3%;
+}
+.class-h1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.div-button{
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 20%;
 }
-
-.App-link {
-  color: #61dafb;
+.login-with-btn{
+  cursor: pointer;
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-boot{
+  width: 30%;
+  margin: 0 auto;
+  
 }
+p{
+  text-align: center;
+}
+.BlockClass{
+  display: block;
+}
+.NoneClass{
+  display: none;
+}
+.input-form{
+  margin-bottom: 2%;
+}
+.Button-back{
+  margin-right: 3%;
+}
+.classHead{
+  text-align: center;
+  margin: 2% 0 4% 0;
+}
+.form-boot{
+  border: 1px solid rgb(182, 180, 180);
+  padding: 25px;
+  border-radius: 8px;
+}
+.user-form{
+  border: 1px solid rgb(182, 180, 180);
+  border-radius: 8px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5%;
+}
+.img-user{
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+.text-user{
+  text-align: center;
+  margin: 3% 0 3% 0;
+ 
+}
+.button-user{
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 7%;
+  
+}
+.button-user button{
+  margin-left: 20px;
+}
+.center-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+.text-Future{
+  text-align: center;
+  
+}
+.dropdown-item_adminNone{
+display: none !important;
+}
+.dropdown-item_admin{
+  display: block;
+}
+.button-phone{
+margin: 3% 3% 3% 0;
+}
+    
